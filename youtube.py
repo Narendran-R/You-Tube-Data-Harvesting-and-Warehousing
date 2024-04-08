@@ -15,7 +15,7 @@ Base = declarative_base()
 
 # Connecting API Key .........................................................................................
 def api_connection():
-    api_key = 'AIzaSyAxLRwc8a8ASTDO9CtcnHtUbEiHiYdyD0A'
+    api_key = 'your_api_key'
     api_service_name = "youtube"
     api_version = "v3"
     youtube = googleapiclient.discovery.build(api_service_name, api_version, developerKey = api_key)
@@ -24,7 +24,7 @@ def api_connection():
 youtube = api_connection()
 
 # Define SQLAlchemy engine and session ....................................................................... 
-engine = create_engine('mysql+pymysql://root:Narendran18*@localhost:3306/ytproject')
+engine = create_engine('mysql+pymysql://root:rootname@localhost:1111/databasename')
 Session = sessionmaker(bind=engine)
 session = Session()
 
