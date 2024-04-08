@@ -1,4 +1,4 @@
-# YouTube-Data-Harvesting-and-Warehousing
+# YouTube-Data-Harvesting-and-Warehousing 
 This project aims to create an interactive application using Python, Streamlit, and MySQL for harvesting data from YouTube channels via the YouTube Data API. The collected data will be stored in a MySQL database and manipulated using Pandas. Additionally, Plotly will be utilized to visualize insights derived from the data.
 
 Technologies Used:                                                                                                                                                                                
